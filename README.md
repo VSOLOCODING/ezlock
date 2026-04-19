@@ -1,4 +1,4 @@
-# 🔒 EzLock V1.0.0 - Secure File Encryption Suite
+# 🔒 EzLock™ V1.0.0 - Secure File Encryption Suite
 
 **An open-source file encryption tool released under the MIT License**
 
@@ -12,7 +12,7 @@ bc1qm6pwqdrew7www4e92mahnf7rqwvmkhwrpyqjn5
 
 ## 📋 About the Project
 
-EzLock is a secure file encryption application designed with **AES-256-GCM encryption (zero-header format)**. It supports account-based encryption, password-based sharing, folder auto-encryption, secure file editing, and built-in media preview tools.
+EzLock™ is a secure file encryption application designed with **AES-256-GCM encryption (zero-header format)**. It supports account-based encryption, password-based sharing, folder auto-encryption, secure file editing, and built-in media preview tools.
 
 ⚠️ This is an **open-source hobby project** and is still slightly unfinished. Contributions, fixes, and improvements are welcome!
 
@@ -38,12 +38,12 @@ You must include the original copyright and license in all copies or substantial
 
 
 
-Secure folders ONLY auto-encrypt files while EzLock 
+Secure folders ONLY auto-encrypt files while EzLock™ 
 is actively running in the background. 
  
 If you close the app, protection STOPS immediately. 
  
-Keep EzLock minimized to maintain protection. 
+Keep EzLock™ minimized to maintain protection. 
 
 
 
@@ -116,7 +116,7 @@ Decryption
 ```
 📁 Folder Security (Experimental)
 
-⚠️ Requires EzLock to stay running.
+⚠️ Requires EzLock™ to stay running.
 ```
 CLI
 > secure ./Documents
@@ -259,10 +259,10 @@ Always keep backups of important files before encryption.
 - CLI + GUI working
 - Core encryption system complete
 - Experimental folder security added
-🔒 EzLock V1.0.0
+🔒 EzLock™ V1.0.0
 
 Open Source. Secure. Lightweight. Experimental.
 
-### Made with ❤️ by Ezcode (Ezcool Entities)
+### Made with ❤️ by Ezcode™(Ezcool Entities™ )
 
 --- 
