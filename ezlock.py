@@ -89,7 +89,7 @@ MIT_LICENSE = """
 MIT License
 
 Copyright © 2026 Ezcool Entities. All rights reserved.
-Ezlock V 1.0.0 is developed by Ezcode, a subsidiary of Ezcool Entities.
+Ezlock™ V 1.0.0 is developed by Ezcode™, a subsidiary of Ezcool Entities™.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -112,10 +112,10 @@ SOFTWARE.
 
 SUPPORT_INFO = """
 ╔══════════════════════════════════════════════════════════════╗
-║                 SUPPORT EZLOCK CREATOR                       ║
+║                 SUPPORT EZLOCK™ CREATOR                      ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║  If you find EzLock useful, please consider supporting       ║
+║  If you find EzLock™ useful, please consider supporting      ║
 ║  the developer with a small donation. Your support helps     ║
 ║  maintain and improve this software!                         ║
 ║                                                              ║
@@ -132,7 +132,7 @@ Your support will be appericated   (◑‿◐)
 
 USER_GUIDE = """
 ╔════════════════════════════════════════════════════════════╗
-║                    EZLOCK USER GUIDE                       ║
+║                    EZLOCK™ USER GUIDE                      ║
 ╠════════════════════════════════════════════════════════════╣
 ║                                                            ║
 ║  QUICK START:                                              ║
@@ -2276,7 +2276,7 @@ class EzLockGUI:
         
         title = tk.Label(
             title_frame,
-            text="EzLock V1.0.0",
+            text="EzLock™ V1.0.0",
             font=('Arial', 42, 'bold'),
             fg='#4CAF50'
         )
@@ -3492,13 +3492,13 @@ class EzLockGUI:
     def show_support_gui(self):
         """Show support info in a new window"""
         support_window = tk.Toplevel(self.root)
-        support_window.title("EzLock - Support Developer")
+        support_window.title("EzLock™ - Support Developer")
         support_window.geometry("700x600")
         support_window.transient(self.root)
         
         tk.Label(
             support_window,
-            text="Support EzLock Development",
+            text="Support EzLock™ Development",
             font=('Arial', 18, 'bold'),
             fg='#F7931A'
         ).pack(pady=10)
@@ -3508,7 +3508,7 @@ class EzLockGUI:
         
         tk.Label(
             main_frame,
-            text="If you find EzLock useful, please consider supporting\nthe developer with a small donation.",
+            text="If you find EzLock™ useful, please consider supporting\nthe developer with a small donation.",
             font=('Arial', 12),
             bg='#ffffff',
             fg='#333333',
@@ -3645,13 +3645,13 @@ class EzLockGUI:
     def show_user_guide_gui(self):
         """Show user guide in a new window"""
         guide_window = tk.Toplevel(self.root)
-        guide_window.title("EzLock - User Guide")
+        guide_window.title("EzLock™ - User Guide")
         guide_window.geometry("800x600")
         guide_window.transient(self.root)
         
         tk.Label(
             guide_window,
-            text="EzLock V1.0.0 User Guide",
+            text="EzLock™ V1.0.0 User Guide",
             font=('Arial', 18, 'bold'),
             fg='#4CAF50'
         ).pack(pady=10)
@@ -5737,7 +5737,7 @@ class EzLockGUI:
         filepath = filedialog.askopenfilename(
             initialdir=self.core.current_dir,
             title="Select file to preview",
-            filetypes=[("EzLock files", "*.ezlock"), ("All files", "*.*")]
+            filetypes=[("EzLock™ files", "*.ezlock"), ("All files", "*.*")]
         )
         if filepath:
             password = self.shared_password_var.get() if self.shared_password_var.get() else None
@@ -5865,7 +5865,7 @@ Type: {'Directory' if os.path.isdir(filepath) else 'File'}
     def show_settings(self):
         """Show settings dialog"""
         dialog = tk.Toplevel(self.root)
-        dialog.title("EzLock Settings")
+        dialog.title("EzLock™ Settings")
         dialog.geometry("500x600")
         dialog.transient(self.root)
         dialog.grab_set()
@@ -6036,7 +6036,7 @@ Type: {'Directory' if os.path.isdir(filepath) else 'File'}
         info_frame = ttk.Frame(notebook)
         notebook.add(info_frame, text="Info")
         
-        info_text = """EzLock V1.0.0
+        info_text = """EzLock™  V1.0.0
 
 Advanced File Encryption Suite with Zero Headers & Folder Security
 
@@ -6072,7 +6072,7 @@ Supported Previews:
 - Text files
 - Binary/Hex view
 
-© 2026 Ezlock V1 """
+© 2026 Ezlock™  V1 """
         
         tk.Label(
             info_frame,
@@ -6101,7 +6101,7 @@ Supported Previews:
     
     def show_commands(self):
         """Show available commands"""
-        commands = """EzLock Commands
+        commands = """EzLock™ Commands
 
 CLI Commands:
   help              - Show this help
@@ -6157,7 +6157,7 @@ GUI Keyboard Shortcuts:
     
     def show_about(self):
         """Show about dialog"""
-        about = """EzLock V1.0.0
+        about = """EzLock™  V1.0.0
 Advanced File Encryption Suite with Zero Headers & Folder Security
 
 File Extension: .ezlock
@@ -6225,7 +6225,7 @@ class EzLockCLI:
     def print_help(self):
         """Print help message"""
         help_text = """
-EZLOCK V1.0.0 - COMMANDS
+EZLOCK™ V1.0.0 - COMMANDS
 ═══════════════════════════════════════════════════
 ACCOUNT COMMANDS:
   register                      - Create new account
@@ -6801,7 +6801,7 @@ if __name__ == "__main__":
     except ImportError:
         print("Installing watchdog for folder security...")
         os.system("pip install watchdog")
-        print("Watchdog installed. Please restart EzLock.")
+        print("Watchdog installed. Please restart EzLock™ .")
         sys.exit(0)
     
     # Check for required audio/video libraries
